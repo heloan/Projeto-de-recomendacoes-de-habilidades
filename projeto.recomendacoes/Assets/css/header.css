@@ -1,0 +1,36 @@
+.header {
+    background: var(--bs-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-radius: 15px 15px 0 0;
+    max-width: 768px;
+    margin: 5px auto 0;
+}
+
+.header__capa {
+    background-image: url(/Assets/img/capa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.header__profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    margin-top: -75px;
+}
+
+.header__profile-img {
+    border: 5px solid var(--bs-color);
+    border-radius: 50%;
+    height: 130px;
+    width: auto;
+}

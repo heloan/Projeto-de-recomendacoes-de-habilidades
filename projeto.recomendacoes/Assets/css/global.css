@@ -1,0 +1,75 @@
+﻿:root {
+    --bg-page: #000;
+    --ft-color: #fff;
+    --bs-color: #1d1d1d;
+    --bs-darkcolor: #000;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--ft-color);
+    background: var(--bg-page);
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--bs-color) var(--bs-darkcolor);
+}
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: var(--bs-darkcolor);
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: var(--bs-color);
+        border-radius: 10px;
+        border: 0px solid var(--bs-color);
+    }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.h1, h1 {
+    font-weight: 800;
+}
+
+a, a:hover {
+    color: var(--ft-color);
+    font-weight: 800;
+    text-decoration: none;
+    outline: thin;
+}
+
+button {
+    box-shadow: none !important;
+    background: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 14px;
+    color: var(--ft-color);
+    border: 1px solid var(--ft-color);
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+    button:hover {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    p {
+        margin-block-start: .5em;
+        margin-block-end: .5em;
+    }

@@ -1,0 +1,29 @@
+﻿.navbar {
+    width: 100%;
+    padding: 10px 0px;
+    background: var(--bs-color);
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__brand {
+    padding: 0 15px;
+}
+
+.navbar__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0 15px;
+}
+
+.navbar__user-img {
+    border-radius: 50%;
+    width: auto;
+    height: 25px;
+}
